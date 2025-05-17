@@ -1,0 +1,29 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>數位永續 薪在嘉義-面試進度</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- 背景特效 容器 -->
+  <div class="circuit-background" id="circuitBackground"></div>
+  <div class="left-gradient"></div>
+
+  <!-- 標題 -->
+  <div class="main-page-header">
+    <h1 class="main-page-title">數位永續 薪在嘉義-面試進度</h1>
+  </div>
+
+  <!-- 2. 你的 carousel 結構 -->
+  <div class="slideshow-master-container" id="slideshowMasterContainer"
+       role="region" aria-roledescription="carousel" aria-label="數位永續 薪在嘉義-面試進度">
+    <!-- 預留 JS 動態注入 slides -->
+  </div>
+
+  <!-- 引入拆分後的 JS -->
+  <script src="app.js"></script>
+</body>
+</html>
